@@ -1,7 +1,7 @@
 
 body {
 
-background-color: lightgray;
+background-color: #eceef1;
 
 
 }
@@ -47,9 +47,10 @@ font-size: 14px;
 
 .logos {
 
-display:flex;
-justify-content: center;
-
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  padding-bottom: 18px;
 
 }
 
@@ -57,38 +58,52 @@ justify-content: center;
 
 .minilogos{
 
-display: flex;
-justify-content: center;
 
+    height: 29px;
+    width: 79px;
+    /* align-self: flex-end; */
+    margin-bottom: 5px;
+    display: flex;
+    margin-left:70vh;
+    align:center;
+    flex-direction:row;
 }
 
 
 .intuitlogo{
 
-width: 120px;
-height:40px;
+      float:right;
+      height: 30px;
+      width: 82px;
 }
 
-.mintlogo{
+.mintlogo {
 
-height:30px;
-width:60px;
-align-self: flex-end;
+  height: 34px;
+  width: 93px;
+  margin-top: 15px;
+  padding-top: 15px;
+  margin-bottom: 25px;
+  justify-content: center;
+  flex-direction: row;
+  align-self: center;
 
 }
 
 
 .turbotaxlogo{
 
-  height:30px;
-  width:60px;
+  height: 31px;
+  width: 106px;
+  margin-left: 5px;
 
 }
 
 .qblogo{
 
-  height:30px;
-  width:60px;
+  height: 34px;
+  width: 132px;
+  margin-left: 5px;
 }
 
 
@@ -96,8 +111,131 @@ align-self: flex-end;
 .form-container{
 
 
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid #c7c7c7;
+  width: 380px;
+  min-height:70vh;
+  margin:auto;
+  text-align:center;
+  outline:none;
+  height:80%;
+  margin-top:20px;
+  color: #4c4c4c;
+}
 
+
+.form-container header{
+
+margin-bottom:auto;
+font-weight:lighter;
+
+}
+
+.form-container h2{
+
+  font-weight: lighter;
+}
+
+
+form {
+
+margin-bottom:50%;
+
+}
+
+
+
+.email-label{
+
+  margin-right: 56%;
+      font-weight: 400;
+      padding-bottom: 5px;
+      margin-bottom: 5px;
+      line-height: 25px;
+
+}
+
+
+.email-input{
+
+      width: 301px;
+      height: 21px;
+      background-color: white;
+      margin-top: 5px;
+
+}
+
+
+.phone-label{
+
+  margin-right: 56%;
+      font-weight: 400;
+      padding-bottom: 5px;
+      margin-bottom: 5px;
+      line-height: 25px;
+      margin-left: 10%;
+}
+
+
+.phone-input{
+
+      width: 301px;
+      height: 21px;
+      background-color: white;
+      margin-top: 5px;
+
+}
+
+
+
+.password-label{
+
+  margin-right: 56%;
+      font-weight: 400;
+      padding-bottom: 5px;
+      margin-bottom: 5px;
+      line-height: 25px;
+
+}
+
+
+.password-input{
+
+      width: 301px;
+      height: 21px;
+      background-color: white;
+      margin-top: 5px;
+
+}
+
+
+.createaccount{
+
+
+  width: 301px;
+  height: 39px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 5px;
+  background-color: royalblue;
+
+}
+
+.createaccount{
+
+  font-size: 15px;
+  font-weight: lighter;
+  color:white;
+
+
+}
+
+.form-end{
+
+background-color:#eceef1;
+padding:16px solid gray;
 
 }

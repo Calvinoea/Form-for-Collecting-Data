@@ -1,4 +1,4 @@
-  
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,7 +38,7 @@
 <p style="/* margin-top: 10px; */padding-top: 10;">One account for everything Intuit, including Mint. <br> <a href="#">Learn more</a>
 
     <br>
-    <span> Already have an account? <a href="#"> Sign In</a></span>
+
 
 </p>
 </header>
@@ -49,27 +49,34 @@
 
 <label class ="email-label" for="">Email Address</label>
 <br>
-<input class="email-input" type="text" name="" value="">
+<input class="email-input" type="email" name="" value="" required>
 
 <br>
 
-
-<label class="phone-label" for="">Phone(recommended)</label>
+<div class="second-input">
+<label class="phone-label" for="">Phone(recommended)</label>>
 <br>
 <input class="phone-input" type="tel" name="" value="">
-
+<div class="phone-p">
+<span class="phone-paragraph">Standard call, messaging or data rates may apply.</span>
+</div>
+</div>
 <br>
 
-
+<div class="third-input">
 <label class="password-label" for="">Password</label>
 <br>
-<input class="password-input" type="text" name="" value="">
+<div class="password-container">
+<input class="password-input" type="password" name="" value="" required>
+<i class="lock-icon fas fa-lock-open"></i>
+</div>
+</div>
 <br>
 <button class="createaccount" type="button" name="button"><i class="fa fa-lock">&nbsp;Create Account</i></button>
 
 
-<p> By clicking Create account, you agree to our
-Terms and have read and acknowledge our Privacy Statement.</p>
+<p><small> By clicking Create account, you agree to our<br>
+<a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy<br> Statement.</a></small></p>
 
 
 
@@ -77,23 +84,23 @@ Terms and have read and acknowledge our Privacy Statement.</p>
 
 </form>
 <div class="form-end">
-<p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use. </p>
+<p><small>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms</a> of Use. </small></p>
 </div>
 </div>
 
 
 <footer>
 
-<div class="first-footer">
-<p>Legal Privacy Security</p>
+<div class="legal">
+<center><p><small>Legal &nbsp; Privacy &nbsp; Security</small></p></center>
 
 </div>
 
-<div class="second-footer">
+<div class="footertext">
 
- <p>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. <br>
-  Terms and conditions, features, support, pricing, and service options subject to change without notice.<p>
-
+  <center><small>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
+  Terms and conditions, features, support, pricing, and service options subject to change without notice.
+</small></center>
 </div>
 
 </footer>

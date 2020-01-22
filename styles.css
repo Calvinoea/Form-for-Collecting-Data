@@ -67,11 +67,11 @@ font-size: 14px;
 
 
     height: 29px;
-    width: 79px;
+    width: 73px;
     /* align-self: flex-end; */
     margin-bottom: 5px;
     display: flex;
-    margin-left:78vh;
+    margin-left:69vh;
     align-items: center;
     flex-direction:row;
 }
@@ -360,4 +360,19 @@ outline:none;
 margin-left:30px;
 align-items:left;
 color:lightgray;
+}
+
+.legal{
+
+display: flex;
+justify-content: center;
+
+}
+
+.footertext{
+
+  display: flex;
+  justify-content: center;
+
+
 }

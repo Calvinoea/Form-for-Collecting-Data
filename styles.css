@@ -71,7 +71,7 @@ font-size: 14px;
     /* align-self: flex-end; */
     margin-bottom: 5px;
     display: flex;
-    margin-left:67vh;
+    margin-left:78vh;
     align-items: center;
     flex-direction:row;
 }
@@ -235,7 +235,7 @@ padding-top:7px;
 
 }
 .third-input{
-  margin-top: 29px;
+  margin-top: 37px;
 }
 
 
@@ -251,6 +251,11 @@ padding-top:7px;
 
 }
 
+input i{
+
+  color:yellow;
+
+}
 
 .password-input{
 
@@ -263,32 +268,40 @@ padding-top:7px;
       border-radius: 3px;
       border: solid 1px #c1c5c8;
       line-height: 1.3em;
-
+      color: lightgray;
 
 }
+
 
 
 .createaccount{
 
 
-  width: 301px;
-  height: 39px;
+  width: 317px;
+  height: 45px;
   border-radius: 5px;
   background-color: white;
-  margin-top: 5px;
-  background-color: royalblue;
-
+  margin-top: 15px;
+  background-color:#167ccc;
+  margin-right: 9px;
+color:white;
+font-size:18px;
+  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight:lighter;
 }
 
-.createaccount{
 
-  font-size: 15px;
-  font-weight: lighter;
+ /*
+.createaccount i {
+  font-size: 60px;
+  font-weight: 400;
   color:white;
+  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+cursor: pointer;
 
-
+font-size: 12px;
 }
-
+*/
 .form-end{
 
 background-color:#eceef1;
@@ -346,6 +359,5 @@ border: none;
 outline:none;
 margin-left:30px;
 align-items:left;
-outline-color: gray;
-
+color:lightgray;
 }

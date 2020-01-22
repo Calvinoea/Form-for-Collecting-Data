@@ -268,3 +268,19 @@ background-color:#eceef1;
 padding:16px solid gray;
 
 }
+.fst-footer{
+  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 8;
+  text-align: center;
+  
+}
+.second-footer {
+font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+font-size: 12px;
+text-align: center;
+color: rgb(66, 66, 70);
+padding-bottom: 10px;
+line-height: 1.5;
+font-weight: 400px;
+
+}

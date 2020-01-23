@@ -8,7 +8,6 @@ body {
 
 background-color: #eceef1;
 
-
 }
 
 /* Header */
@@ -140,6 +139,7 @@ padding-top: 10px;
   margin-top:20px;
   color: #4c4c4c;
 }
+
 .form-container{
   font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 
@@ -218,6 +218,7 @@ margin-bottom:50%;
       margin-left: 15px;
 
 }
+
 .second-input{
   margin-top: 29px;
 
@@ -232,6 +233,7 @@ margin-left:30px;
 padding-top:7px;
 
 }
+
 .third-input{
   margin-top: 37px;
 }
@@ -276,8 +278,8 @@ input i{
   margin-top: 15px;
   background-color:#167ccc;
   margin-right: 9px;
-color:white;
-font-size:18px;
+  color:white;
+  font-size:18px;
   font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-weight:lighter;
 }
@@ -332,10 +334,10 @@ margin-right: -55px;
 .lock-icon{
 
 border: none;
-outline:none;
-margin-left:30px;
-align-items:left;
-color:lightgray;
+outline: none;
+margin-left: 30px;
+align-items: left;
+color: lightgray;
 }
 
 .legal{

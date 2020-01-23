@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 a {
 
   text-decoration: none;
@@ -18,15 +11,11 @@ background-color: #eceef1;
 
 }
 
-
-
 /* Header */
-
 
 header {
 
 margin:0 auto;
-
 
 }
 
@@ -56,7 +45,6 @@ text-decoration: none;
 
 }
 
-
 .nav-left p {
 
 margin-right: 15px;
@@ -64,8 +52,6 @@ font-weight:light;
 font-size: 14px;
 
 }
-
-
 
 .logos {
 
@@ -75,8 +61,6 @@ font-size: 14px;
   padding-bottom: 18px;
 
 }
-
-
 
 .minilogos{
 
@@ -92,14 +76,12 @@ font-size: 14px;
     /* flex-direction:row; */
 }
 
-
 .minilogos div{
 
 display: flex;
 justify-content: center;
 
 }
-
 
 .intuitlogo{
 
@@ -121,7 +103,6 @@ justify-content: center;
 
 }
 
-
 .turbotaxlogo{
 
   height: 31px;
@@ -137,17 +118,13 @@ justify-content: center;
   margin-left: 5px;
 }
 
-
 header.dummyclass > h2 + p {
 
 padding-top: 10px;
 
 }
 
-
-
 .form-container{
-
 
   display: flex;
   justify-content: center;
@@ -166,9 +143,7 @@ padding-top: 10px;
 .form-container{
   font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 
-
 }
-
 
 .form-container header{
 
@@ -184,15 +159,11 @@ font-size: 14px;
   font-size: 25px;
 }
 
-
-
 form {
 
 margin-bottom:50%;
 
 }
-
-
 
 .email-label{
 
@@ -205,7 +176,6 @@ margin-bottom:50%;
       font-size: 15px;
 
 }
-
 
 .email-input{
 
@@ -221,7 +191,6 @@ margin-bottom:50%;
       margin-left: 15px;
 }
 
-
 .phone-label{
 
   margin-right: 57%;
@@ -234,7 +203,6 @@ margin-bottom:50%;
       font-size: 15px;
       line-height: 28px;
 }
-
 
 .phone-input{
 
@@ -255,7 +223,6 @@ margin-bottom:50%;
 
 }
 
-
 .phone-paragraph{
 
 font-weight: lighter;
@@ -269,7 +236,6 @@ padding-top:7px;
   margin-top: 37px;
 }
 
-
 .password-label{
 
   margin-right: 67%;
@@ -279,7 +245,6 @@ padding-top:7px;
       line-height: 27px;
       color: #404040;
       font-size: 15px;
-
 }
 
 input i{
@@ -300,13 +265,9 @@ input i{
       border: solid 1px #c1c5c8;
       line-height: 1.3em;
       color: lightgray;
-
 }
 
-
-
 .createaccount{
-
 
   width: 317px;
   height: 45px;
@@ -321,8 +282,6 @@ font-size:18px;
   font-weight:lighter;
 }
 
-
-
 .form-end{
 
 background-color:#eceef1;
@@ -330,12 +289,10 @@ padding:16px solid gray;
 
 }
 
-
 .legal{
 margin-top:15px;
 color:#4c4c4c;
 }
-
 
 .footertext{
 
@@ -352,7 +309,6 @@ color:#4c4c4c;
 text-decoration: none;
 }
 
-
 .password-container{
 
     display: flex;
@@ -360,13 +316,12 @@ text-decoration: none;
     align-items: center;
     margin-right:15px;
     justify-content: center;
-
+  
 }
 
 .password-input{
 
 margin-right: -55px;
-
 
 }
 
@@ -394,6 +349,5 @@ justify-content: center;
 
   display: flex;
   justify-content: center;
-
 
 }

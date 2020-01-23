@@ -14,7 +14,7 @@ background-color: #eceef1;
 
 header {
 
-margin:0 auto;
+margin: 0 auto;
 
 }
 
@@ -27,11 +27,11 @@ margin:0 auto;
 .nav-left button {
 
 color:white;
-background-color:#0077c5;
-height:38px;
+background-color: #0077c5;
+height: 38px;
 width: 97px;
 border-radius: 5px;
-font-weight:normal;
+font-weight: normal;
 font-size: 0.89em;
 border-color: black;
 cursor: pointer;
@@ -67,12 +67,9 @@ font-size: 14px;
     justify-content: center;
     height: 29px;
     width: 73px;
-    /* align-self: flex-end; */
     margin-bottom: 5px;
-
     margin-left:80vh;
     align-items: center;
-    /* flex-direction:row; */
 }
 
 .minilogos div{
@@ -84,7 +81,7 @@ justify-content: center;
 
 .intuitlogo{
 
-      float:right;
+      float: right;
       height: 30px;
       width: 82px;
 }
@@ -131,12 +128,12 @@ padding-top: 10px;
   background-color: white;
   border: 1px solid #c7c7c7;
   width: 380px;
-  min-height:70vh;
-  margin:auto;
-  text-align:center;
-  outline:none;
-  height:80%;
-  margin-top:20px;
+  min-height: 70vh;
+  margin: auto;
+  text-align: center;
+  outline: none;
+  height: 80%;
+  margin-top: 20px;
   color: #4c4c4c;
 }
 
@@ -147,7 +144,7 @@ padding-top: 10px;
 
 .form-container header{
 
-margin-bottom:auto;
+margin-bottom: auto;
 color: #4c4c4c;
 font-weight: 400;
 font-size: 14px;
@@ -172,7 +169,7 @@ margin-bottom:50%;
       padding-bottom: 5px;
       margin-bottom: 5px;
       line-height: 28px;
-      color:#404040;
+      color: #404040;
       font-size: 15px;
 
 }
@@ -228,9 +225,9 @@ margin-bottom:50%;
 
 font-weight: lighter;
 font-size: 10px;
-float:left;
-margin-left:30px;
-padding-top:7px;
+float: left;
+margin-left: 30px;
+padding-top: 7px;
 
 }
 
@@ -251,7 +248,7 @@ padding-top:7px;
 
 input i{
 
-  color:yellow;
+  color: yellow;
 
 }
 
@@ -276,12 +273,12 @@ input i{
   border-radius: 5px;
   background-color: white;
   margin-top: 15px;
-  background-color:#167ccc;
+  background-color: #167ccc;
   margin-right: 9px;
   color:white;
-  font-size:18px;
+  font-size: 18px;
   font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-weight:lighter;
+  font-weight: lighter;
 }
 
 .form-end{
@@ -292,22 +289,22 @@ padding:16px solid gray;
 }
 
 .legal{
-margin-top:15px;
-color:#4c4c4c;
+margin-top: 15px;
+color: #4c4c4c;
 }
 
 .footertext{
 
-color:#4c4c4c;
-
+color: #4c4c4c;
 margin-top: -13px;
+  
 }
 
 .form-end p{
 
 font-size: 14px;
-font-weight:lighter;
-color:#4c4c4c;
+font-weight: lighter;
+color: #4c4c4c;
 text-decoration: none;
 }
 
@@ -316,7 +313,7 @@ text-decoration: none;
     display: flex;
     flex-flow: row;
     align-items: center;
-    margin-right:15px;
+    margin-right: 15px;
     justify-content: center;
   
 }

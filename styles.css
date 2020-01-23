@@ -1,5 +1,10 @@
 
 
+
+
+
+
+
 a {
 
   text-decoration: none;
@@ -17,6 +22,14 @@ background-color: #eceef1;
 
 /* Header */
 
+
+header {
+
+margin:0 auto;
+
+
+}
+
 .nav-left{
     display: flex;
     align-items: center;
@@ -26,13 +39,15 @@ background-color: #eceef1;
 .nav-left button {
 
 color:white;
-background-color:royalblue;
-height:40px;
-width: 95px;
+background-color:#0077c5;
+height:38px;
+width: 97px;
 border-radius: 5px;
-font-weight:bold;
-font-size: 15px;
+font-weight:normal;
+font-size: 0.89em;
 border-color: black;
+cursor: pointer;
+font-family: inherit;
 }
 
 .nav-left a {
@@ -65,15 +80,24 @@ font-size: 14px;
 
 .minilogos{
 
-
+    display:flex;
+    justify-content: center;
     height: 29px;
     width: 73px;
     /* align-self: flex-end; */
     margin-bottom: 5px;
-    display: flex;
-    margin-left:69vh;
+
+    margin-left:80vh;
     align-items: center;
-    flex-direction:row;
+    /* flex-direction:row; */
+}
+
+
+.minilogos div{
+
+display: flex;
+justify-content: center;
+
 }
 
 
@@ -111,6 +135,13 @@ font-size: 14px;
   height: 34px;
   width: 132px;
   margin-left: 5px;
+}
+
+
+header.dummyclass > h2 + p {
+
+padding-top: 10px;
+
 }
 
 
@@ -291,17 +322,7 @@ font-size:18px;
 }
 
 
- /*
-.createaccount i {
-  font-size: 60px;
-  font-weight: 400;
-  color:white;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
-cursor: pointer;
 
-font-size: 12px;
-}
-*/
 .form-end{
 
 background-color:#eceef1;

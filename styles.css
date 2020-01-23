@@ -328,17 +328,17 @@ text-decoration: none;
 
 .password-container {
 
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    margin-right: 15px;
-    justify-content: center;
+   display: flex;
+   flex-flow: row;
+   align-items: center;
+   margin-right: 15px;
+   justify-content: center;
   
 }
 
 .password-input {
 
-margin-right: -55px;
+  margin-right: -55px;
 
 }
 
@@ -350,18 +350,18 @@ margin-right: -55px;
 
 .lock-icon{
 
-border: none;
-outline: none;
-margin-left: 30px;
-align-items: left;
-color: lightgray;
+  border: none;
+  outline: none;
+  margin-left: 30px;
+  align-items: left;
+  color: lightgray;
   
 }
 
 .legal {
 
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 
 }
 

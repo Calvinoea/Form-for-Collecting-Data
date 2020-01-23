@@ -18,7 +18,7 @@ margin: 0 auto;
 
 }
 
-.nav-left{
+.nav-left {
   
     display: flex;
     align-items: center;
@@ -64,7 +64,7 @@ font-size: 14px;
 
 }
 
-.minilogos{
+.minilogos {
 
     display:flex;
     justify-content: center;
@@ -75,14 +75,14 @@ font-size: 14px;
     align-items: center;
 }
 
-.minilogos div{
+.minilogos div {
 
 display: flex;
 justify-content: center;
 
 }
 
-.intuitlogo{
+.intuitlogo {
 
       float: right;
       height: 30px;
@@ -103,7 +103,7 @@ justify-content: center;
 
 }
 
-.turbotaxlogo{
+.turbotaxlogo {
 
   height: 31px;
   width: 106px;
@@ -111,7 +111,7 @@ justify-content: center;
 
 }
 
-.qblogo{
+.qblogo {
 
   height: 34px;
   width: 132px;
@@ -125,7 +125,7 @@ padding-top: 10px;
 
 }
 
-.form-container{
+.form-container {
 
   display: flex;
   justify-content: center;
@@ -143,13 +143,13 @@ padding-top: 10px;
   
 }
 
-.form-container{
+.form-container {
   
   font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 
 }
 
-.form-container header{
+.form-container header {
 
 margin-bottom: auto;
 color: #4c4c4c;
@@ -158,7 +158,8 @@ font-size: 14px;
 
 }
 
-.form-container h2{
+.form-container h2 {
+  
   font-weight: lighter;
   font-size: 25px;
   
@@ -166,11 +167,11 @@ font-size: 14px;
 
 form {
 
-margin-bottom:50%;
+margin-bottom: 50%;
 
 }
 
-.email-label{
+.email-label {
 
   margin-right: 59%;
       font-weight: 400;
@@ -182,7 +183,7 @@ margin-bottom:50%;
 
 }
 
-.email-input{
+.email-input {
 
       width: 310px;
       height: 34px;
@@ -196,7 +197,7 @@ margin-bottom:50%;
       margin-left: 15px;
 }
 
-.phone-label{
+.phone-label {
 
   margin-right: 57%;
       font-weight: 400;
@@ -210,7 +211,7 @@ margin-bottom:50%;
   
 }
 
-.phone-input{
+.phone-input {
 
       width: 310px;
       height: 34px;
@@ -225,13 +226,13 @@ margin-bottom:50%;
 
 }
 
-.second-input{
+.second-input {
   
   margin-top: 29px;
 
 }
 
-.phone-paragraph{
+.phone-paragraph {
 
 font-weight: lighter;
 font-size: 10px;
@@ -241,13 +242,13 @@ padding-top: 7px;
 
 }
 
-.third-input{
+.third-input {
   
   margin-top: 37px;
   
 }
 
-.password-label{
+.password-label {
 
   margin-right: 67%;
       font-weight: 400;
@@ -258,28 +259,28 @@ padding-top: 7px;
       font-size: 15px;
 }
 
-input i{
+input i {
 
   color: yellow;
 
 }
 
-.password-input{
+.password-input {
 
-      width: 310px;
-      height: 34px;
-      background-color: white;
-      margin-top: 5px;
-      margin-right: 21px;
-      border-color: #c4c4c4;
-      border-radius: 3px;
-      border: solid 1px #c1c5c8;
-      line-height: 1.3em;
-      color: lightgray;
+  width: 310px;
+  height: 34px;
+  background-color: white;
+  margin-top: 5px;
+  margin-right: 21px;
+  border-color: #c4c4c4;
+  border-radius: 3px;
+  border: solid 1px #c1c5c8;
+  line-height: 1.3em;
+   color: lightgray;
   
 }
 
-.createaccount{
+.createaccount {
 
   width: 317px;
   height: 45px;
@@ -288,35 +289,35 @@ input i{
   margin-top: 15px;
   background-color: #167ccc;
   margin-right: 9px;
-  color:white;
+  color: white;
   font-size: 18px;
   font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-weight: lighter;
   
 }
 
-.form-end{
+.form-end {
 
-background-color:#eceef1;
-padding:16px solid gray;
+background-color: #eceef1;
+padding: 16px solid gray;
 
 }
 
-.legal{
+.legal {
   
 margin-top: 15px;
 color: #4c4c4c;
   
 }
 
-.footertext{
+.footertext {
 
 color: #4c4c4c;
 margin-top: -13px;
   
 }
 
-.form-end p{
+.form-end p {
 
 font-size: 14px;
 font-weight: lighter;
@@ -325,7 +326,7 @@ text-decoration: none;
   
 }
 
-.password-container{
+.password-container {
 
     display: flex;
     flex-flow: row;
@@ -335,7 +336,7 @@ text-decoration: none;
   
 }
 
-.password-input{
+.password-input {
 
 margin-right: -55px;
 
@@ -357,14 +358,14 @@ color: lightgray;
   
 }
 
-.legal{
+.legal {
 
 display: flex;
 justify-content: center;
 
 }
 
-.footertext{
+.footertext {
 
   display: flex;
   justify-content: center;

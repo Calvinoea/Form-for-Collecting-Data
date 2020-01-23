@@ -243,95 +243,95 @@ input i {
 
 .password-input {
 
-    width: 310px;
-    height: 34px;
-    background-color: white;
-    margin-top: 5px;
-    margin-right: 21px;
-    border-color: #c4c4c4;
-    border-radius: 3px;
-    border: solid 1px #c1c5c8;
-    line-height: 1.3em;
-     color: lightgray;
+  width: 310px;
+  height: 34px;
+  background-color: white;
+  margin-top: 5px;
+  margin-right: 21px;
+  border-color: #c4c4c4;
+  border-radius: 3px;
+  border: solid 1px #c1c5c8;
+  ine-height: 1.3em;
+  color: lightgray;
 }
 
 .createaccount {
 
-    width: 317px;
-    height: 45px;
-    border-radius: 5px;
-    background-color: white;
-    margin-top: 15px;
-    background-color: #167ccc;
-    margin-right: 9px;
-    color: white;
-    font-size: 18px;
-    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-weight: lighter;
+  width: 317px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 15px;
+  background-color: #167ccc;
+  margin-right: 9px;
+  color: white;
+  font-size: 18px;
+  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: lighter;
 }
 
 .form-end {
 
-    background-color: #eceef1;
-    padding: 16px solid gray;
+  background-color: #eceef1;
+  padding: 16px solid gray;
 }
 
 .legal {
   
-    margin-top: 15px;
-    color: #4c4c4c;  
+  margin-top: 15px;
+  color: #4c4c4c;  
 }
 
 .footertext {
 
-    color: #4c4c4c;
-    margin-top: -13px; 
+  color: #4c4c4c;
+  margin-top: -13px; 
 }
 
 .form-end p {
 
-    font-size: 14px;
-    font-weight: lighter;
-    color: #4c4c4c;
-    text-decoration: none; 
+  font-size: 14px;
+  font-weight: lighter;
+  color: #4c4c4c;
+  text-decoration: none; 
 }
 
 .password-container {
 
-   display: flex;
-   flex-flow: row;
-   align-items: center;
-   margin-right: 15px;
-   justify-content: center;  
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-right: 15px;
+  justify-content: center;  
 }
 
 .password-input {
 
-    margin-right: -55px;
+  margin-right: -55px;
 }
 
 .password-input:focus {
   
-    outline: none;
+  outline: none;
 }
 
 .lock-icon{
 
-    border: none;
-    outline: none;
-    margin-left: 30px;
-    align-items: left;
-    color: lightgray;
+  border: none;
+  outline: none;
+  margin-left: 30px;
+  align-items: left;
+  color: lightgray;
 }
 
 .legal {
 
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .footertext {
   
-   display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
 }

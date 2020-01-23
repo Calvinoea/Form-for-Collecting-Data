@@ -11,7 +11,6 @@ background-color: #eceef1;
 }
 /* Header */
 header {
-
   margin: 0 auto;
 }
 
@@ -35,19 +34,16 @@ header {
 }
 
 .nav-left a {
-
     text-decoration: none;
 }
 
 .nav-left p {
-
     margin-right: 15px;
     font-weight:light;
     font-size: 14px;
 }
 
 .logos {
-
     display: flex;
     justify-content: center;
     margin-top: 15px;
@@ -55,7 +51,6 @@ header {
 }
 
 .minilogos {
-
     display:flex;
     justify-content: center;
     height: 29px;
@@ -66,20 +61,17 @@ header {
 }
 
 .minilogos div {
-
     display: flex;
     justify-content: center;
 }
 
 .intuitlogo {
-
       float: right;
       height: 30px;
       width: 82px;
 }
 
 .mintlogo {
-
       height: 34px;
       width: 93px;
       margin-top: 15px;
@@ -91,26 +83,22 @@ header {
 }
 
 .turbotaxlogo {
-
       height: 31px;
       width: 106px;
       margin-left: 5px;
 }
 
 .qblogo {
-
       height: 34px;
       width: 132px;
       margin-left: 5px;
 }
 
 header.dummyclass > h2 + p {
-
       padding-top: 10px;
 }
 
 .form-container {
-
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -127,12 +115,10 @@ header.dummyclass > h2 + p {
 }
 
 .form-container {
-  
       font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .form-container header {
-
       margin-bottom: auto;
       color: #4c4c4c;
       font-weight: 400;
@@ -140,18 +126,15 @@ header.dummyclass > h2 + p {
 }
 
 .form-container h2 {
-  
       font-weight: lighter;
       font-size: 25px;
 }
 
 form {
-
     margin-bottom: 50%;
 }
 
 .email-label {
-
       margin-right: 59%;
       font-weight: 400;
       padding-bottom: 5px;
@@ -162,7 +145,6 @@ form {
 }
 
 .email-input {
-
       width: 310px;
       height: 34px;
       background-color: white;
@@ -176,7 +158,6 @@ form {
 }
 
 .phone-label {
-
   margin-right: 57%;
       font-weight: 400;
       padding-bottom: 5px;
@@ -189,7 +170,6 @@ form {
 }
 
 .phone-input {
-
       width: 310px;
       height: 34px;
       background-color: white;
@@ -203,12 +183,10 @@ form {
 }
 
 .second-input {
-  
      margin-top: 29px;
 }
 
 .phone-paragraph {
-
     font-weight: lighter;
     font-size: 10px;
     float: left;
@@ -217,12 +195,10 @@ form {
 }
 
 .third-input {
-  
     margin-top: 37px;  
 }
 
 .password-label {
-
       margin-right: 67%;
       font-weight: 400;
       padding-bottom: 5px;
@@ -233,12 +209,10 @@ form {
 }
 
 input i {
-
     color: yellow;
 }
 
 .password-input {
-
   width: 310px;
   height: 34px;
   background-color: white;
@@ -252,7 +226,6 @@ input i {
 }
 
 .createaccount {
-
   width: 317px;
   height: 45px;
   border-radius: 5px;
@@ -267,25 +240,21 @@ input i {
 }
 
 .form-end {
-
   background-color: #eceef1;
   padding: 16px solid gray;
 }
 
 .legal {
-  
   margin-top: 15px;
   color: #4c4c4c;  
 }
 
 .footertext {
-
   color: #4c4c4c;
   margin-top: -13px; 
 }
 
 .form-end p {
-
   font-size: 14px;
   font-weight: lighter;
   color: #4c4c4c;
@@ -293,7 +262,6 @@ input i {
 }
 
 .password-container {
-
   display: flex;
   flex-flow: row;
   align-items: center;
@@ -302,17 +270,14 @@ input i {
 }
 
 .password-input {
-
   margin-right: -55px;
 }
 
-.password-input:focus {
-  
+.password-input:focus { 
   outline: none;
 }
 
 .lock-icon{
-
   border: none;
   outline: none;
   margin-left: 30px;
@@ -321,13 +286,11 @@ input i {
 }
 
 .legal {
-
   display: flex;
   justify-content: center;
 }
 
 .footertext {
-  
   display: flex;
   justify-content: center;
 }

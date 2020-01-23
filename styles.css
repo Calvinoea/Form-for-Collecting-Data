@@ -19,9 +19,11 @@ margin: 0 auto;
 }
 
 .nav-left{
+  
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  
 }
 
 .nav-left button {
@@ -36,6 +38,7 @@ font-size: 0.89em;
 border-color: black;
 cursor: pointer;
 font-family: inherit;
+  
 }
 
 .nav-left a {
@@ -84,6 +87,7 @@ justify-content: center;
       float: right;
       height: 30px;
       width: 82px;
+  
 }
 
 .mintlogo {
@@ -112,6 +116,7 @@ justify-content: center;
   height: 34px;
   width: 132px;
   margin-left: 5px;
+  
 }
 
 header.dummyclass > h2 + p {
@@ -135,9 +140,11 @@ padding-top: 10px;
   height: 80%;
   margin-top: 20px;
   color: #4c4c4c;
+  
 }
 
 .form-container{
+  
   font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 
 }
@@ -154,6 +161,7 @@ font-size: 14px;
 .form-container h2{
   font-weight: lighter;
   font-size: 25px;
+  
 }
 
 form {
@@ -199,6 +207,7 @@ margin-bottom:50%;
       color: #404040;
       font-size: 15px;
       line-height: 28px;
+  
 }
 
 .phone-input{
@@ -217,6 +226,7 @@ margin-bottom:50%;
 }
 
 .second-input{
+  
   margin-top: 29px;
 
 }
@@ -232,7 +242,9 @@ padding-top: 7px;
 }
 
 .third-input{
+  
   margin-top: 37px;
+  
 }
 
 .password-label{
@@ -264,6 +276,7 @@ input i{
       border: solid 1px #c1c5c8;
       line-height: 1.3em;
       color: lightgray;
+  
 }
 
 .createaccount{
@@ -279,6 +292,7 @@ input i{
   font-size: 18px;
   font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-weight: lighter;
+  
 }
 
 .form-end{
@@ -289,8 +303,10 @@ padding:16px solid gray;
 }
 
 .legal{
+  
 margin-top: 15px;
 color: #4c4c4c;
+  
 }
 
 .footertext{
@@ -306,6 +322,7 @@ font-size: 14px;
 font-weight: lighter;
 color: #4c4c4c;
 text-decoration: none;
+  
 }
 
 .password-container{
@@ -325,7 +342,9 @@ margin-right: -55px;
 }
 
 .password-input:focus {
+  
   outline: none;
+  
 }
 
 .lock-icon{
@@ -335,6 +354,7 @@ outline: none;
 margin-left: 30px;
 align-items: left;
 color: lightgray;
+  
 }
 
 .legal{

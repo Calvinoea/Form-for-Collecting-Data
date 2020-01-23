@@ -9,23 +9,19 @@ body {
 background-color: #eceef1;
 
 }
-
 /* Header */
-
 header {
 
-   margin: 0 auto;
+  margin: 0 auto;
 }
 
 .nav-left {
-  
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
 .nav-left button {
-
     color:white;
     background-color: #0077c5;
     height: 38px;

@@ -14,7 +14,7 @@ It is the frontend clone for Intuit's sign up page. The page has a form with inp
 
 # Live Project
 
-https://frosty-nightingale-713a3c.netlify.com/
+https://objective-banach-e82924.netlify.com/
 
 
 # Screenshot

@@ -14,7 +14,7 @@ background-color: #eceef1;
 
 header {
 
-margin: 0 auto;
+    margin: 0 auto;
 
 }
 
@@ -28,39 +28,39 @@ margin: 0 auto;
 
 .nav-left button {
 
-color:white;
-background-color: #0077c5;
-height: 38px;
-width: 97px;
-border-radius: 5px;
-font-weight: normal;
-font-size: 0.89em;
-border-color: black;
-cursor: pointer;
-font-family: inherit;
+    color:white;
+    background-color: #0077c5;
+    height: 38px;
+    width: 97px;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 0.89em;
+    border-color: black;
+    cursor: pointer;
+    font-family: inherit;
   
 }
 
 .nav-left a {
 
-text-decoration: none;
+    text-decoration: none;
 
 }
 
 .nav-left p {
 
-margin-right: 15px;
-font-weight:light;
-font-size: 14px;
+    margin-right: 15px;
+    font-weight:light;
+    font-size: 14px;
 
 }
 
 .logos {
 
-  display: flex;
-  justify-content: center;
-  margin-top: 15px;
-  padding-bottom: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding-bottom: 18px;
 
 }
 
@@ -77,8 +77,8 @@ font-size: 14px;
 
 .minilogos div {
 
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -92,88 +92,88 @@ justify-content: center;
 
 .mintlogo {
 
-  height: 34px;
-  width: 93px;
-  margin-top: 15px;
-  padding-top: 15px;
-  margin-bottom: 25px;
-  justify-content: center;
-  flex-direction: row;
-  align-self: center;
+      height: 34px;
+      width: 93px;
+      margin-top: 15px;
+      padding-top: 15px;
+      margin-bottom: 25px;
+      justify-content: center;
+      flex-direction: row;
+      align-self: center;
 
 }
 
 .turbotaxlogo {
 
-  height: 31px;
-  width: 106px;
-  margin-left: 5px;
+      height: 31px;
+      width: 106px;
+      margin-left: 5px;
 
 }
 
 .qblogo {
 
-  height: 34px;
-  width: 132px;
-  margin-left: 5px;
+      height: 34px;
+      width: 132px;
+      margin-left: 5px;
   
 }
 
 header.dummyclass > h2 + p {
 
-padding-top: 10px;
+      padding-top: 10px;
 
 }
 
 .form-container {
 
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color: white;
-  border: 1px solid #c7c7c7;
-  width: 380px;
-  min-height: 70vh;
-  margin: auto;
-  text-align: center;
-  outline: none;
-  height: 80%;
-  margin-top: 20px;
-  color: #4c4c4c;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      background-color: white;
+      border: 1px solid #c7c7c7;
+      width: 380px;
+      min-height: 70vh;
+      margin: auto;
+      text-align: center;
+      outline: none;
+      height: 80%;
+      margin-top: 20px;
+      color: #4c4c4c;
   
 }
 
 .form-container {
   
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+      font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 
 }
 
 .form-container header {
 
-margin-bottom: auto;
-color: #4c4c4c;
-font-weight: 400;
-font-size: 14px;
+      margin-bottom: auto;
+      color: #4c4c4c;
+      font-weight: 400;
+      font-size: 14px;
 
 }
 
 .form-container h2 {
   
-  font-weight: lighter;
-  font-size: 25px;
+      font-weight: lighter;
+      font-size: 25px;
   
 }
 
 form {
 
-margin-bottom: 50%;
+    margin-bottom: 50%;
 
 }
 
 .email-label {
 
-  margin-right: 59%;
+      margin-right: 59%;
       font-weight: 400;
       padding-bottom: 5px;
       margin-bottom: 5px;
@@ -228,23 +228,23 @@ margin-bottom: 50%;
 
 .second-input {
   
-  margin-top: 29px;
+     margin-top: 29px;
 
 }
 
 .phone-paragraph {
 
-font-weight: lighter;
-font-size: 10px;
-float: left;
-margin-left: 30px;
-padding-top: 7px;
+    font-weight: lighter;
+    font-size: 10px;
+    float: left;
+    margin-left: 30px;
+    padding-top: 7px;
 
 }
 
 .third-input {
   
-  margin-top: 37px;
+    margin-top: 37px;
   
 }
 
@@ -261,7 +261,7 @@ padding-top: 7px;
 
 input i {
 
-  color: yellow;
+    color: yellow;
 
 }
 
@@ -298,8 +298,8 @@ input i {
 
 .form-end {
 
-  background-color: #eceef1;
-  padding: 16px solid gray;
+    background-color: #eceef1;
+    padding: 16px solid gray;
 
 }
 
@@ -312,17 +312,17 @@ input i {
 
 .footertext {
 
-  color: #4c4c4c;
-  margin-top: -13px;
+    color: #4c4c4c;
+    margin-top: -13px;
   
 }
 
 .form-end p {
 
-  font-size: 14px;
-  font-weight: lighter;
-  color: #4c4c4c;
-  text-decoration: none;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #4c4c4c;
+    text-decoration: none;
   
 }
 
@@ -369,5 +369,4 @@ input i {
   
     display: flex;
     justify-content: center;
-
 }

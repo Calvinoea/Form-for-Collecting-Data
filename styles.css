@@ -248,6 +248,8 @@ input i {
 .footertext {
   color: #4c4c4c;
   margin-top: -13px; 
+  display: flex;
+  justify-content: center;
 }
 
 .form-end p {
@@ -286,7 +288,3 @@ input i {
   justify-content: center;
 }
 
-.footertext {
-  display: flex;
-  justify-content: center;
-}

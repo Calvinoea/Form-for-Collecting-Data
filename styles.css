@@ -98,7 +98,7 @@ header {
   font-size: 14px;
   font-weight: lighter;
   color: #4c4c4c;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 header.dummyclass > h2 + p {
@@ -198,8 +198,7 @@ form {
 }
 
 .third-input {
-  margin-top: 37px;  
-  
+  margin-top: 37px;
 }
 
 .password-label {
@@ -250,14 +249,14 @@ input i {
 
 .legal {
   margin-top: 15px;
-  color: #4c4c4c;  
+  color: #4c4c4c;
   display: flex;
   justify-content: center;
 }
 
 .footertext {
   color: #4c4c4c;
-  margin-top: -13px; 
+  margin-top: -13px;
   display: flex;
   justify-content: center;
 }

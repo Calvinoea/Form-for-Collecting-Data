@@ -94,6 +94,13 @@ header {
   margin-left: 5px;
 }
 
+.form-end p {
+  font-size: 14px;
+  font-weight: lighter;
+  color: #4c4c4c;
+  text-decoration: none; 
+}
+
 header.dummyclass > h2 + p {
   padding-top: 10px;
 }
@@ -111,7 +118,7 @@ header.dummyclass > h2 + p {
   outline: none;
   height: 80%;
   margin-top: 20px;
-  color: #4c4c4c; 
+  color: #4c4c4c;
   font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
@@ -192,6 +199,7 @@ form {
 
 .third-input {
   margin-top: 37px;  
+  
 }
 
 .password-label {
@@ -252,13 +260,6 @@ input i {
   margin-top: -13px; 
   display: flex;
   justify-content: center;
-}
-
-.form-end p {
-  font-size: 14px;
-  font-weight: lighter;
-  color: #4c4c4c;
-  text-decoration: none; 
 }
 
 .password-container {

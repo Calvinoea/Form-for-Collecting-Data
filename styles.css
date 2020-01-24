@@ -220,7 +220,7 @@ input i {
   height: 34px;
   background-color: white;
   margin-top: 5px;
-  margin-right: 21px;
+  margin-right: -55px;
   border-color: #c4c4c4;
   border-radius: 3px;
   border: solid 1px #c1c5c8;
@@ -266,11 +266,7 @@ input i {
   flex-flow: row;
   align-items: center;
   margin-right: 15px;
-  justify-content: center;  
-}
-
-.password-input {
-  margin-right: -55px;
+  justify-content: center;
 }
 
 .lock-icon{

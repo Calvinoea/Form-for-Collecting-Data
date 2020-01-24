@@ -21,16 +21,16 @@ header {
 }
 
 .nav-left button {
-   color: white;
-   background-color: #0077c5;
-   height: 38px;
-   width: 97px;
-   border-radius: 5px;
-   font-weight: normal;
-   font-size: 0.89em;
-   border-color: black;
-   cursor: pointer;
-   font-family: inherit;
+    color: white;
+    background-color: #0077c5;
+    height: 38px;
+    width: 97px;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 0.89em;
+    border-color: black;
+    cursor: pointer;
+    font-family: inherit;
 }
 
 .nav-left a {

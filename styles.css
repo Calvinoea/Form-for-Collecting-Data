@@ -243,6 +243,8 @@ input i {
 .legal {
   margin-top: 15px;
   color: #4c4c4c;  
+  display: flex;
+  justify-content: center;
 }
 
 .footertext {
@@ -282,9 +284,3 @@ input i {
   align-items: left;
   color: lightgray;
 }
-
-.legal {
-  display: flex;
-  justify-content: center;
-}
-

@@ -34,52 +34,52 @@ header {
 }
 
 .nav-left a {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-left p {
-   margin-right: 15px;
-   font-weight: light;
-   font-size: 14px;
+  margin-right: 15px;
+  font-weight: light;
+  font-size: 14px;
 }
 
 .logos {
-   display: flex;
-   justify-content: center;
-   margin-top: 15px;
-   padding-bottom: 18px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  padding-bottom: 18px;
 }
 
 .minilogos {
-   display: flex;
-   justify-content: center;
-   height: 29px;
-   width: 73px;
-   margin-bottom: 5px;
-   margin-left: 80vh;
-   align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 29px;
+  width: 73px;
+  margin-bottom: 5px;
+  margin-left: 80vh;
+  align-items: center;
 }
 
 .minilogos div {
-   display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .intuitlogo {
-    float: right;
-    height: 30px;
-    width: 82px;
+  float: right;
+  height: 30px;
+  width: 82px;
 }
 
 .mintlogo {
-    height: 34px;
-    width: 93px;
-    margin-top: 15px;
-    padding-top: 15px;
-    margin-bottom: 25px;
-    justify-content: center;
-    flex-direction: row;
-    align-self: center;
+  height: 34px;
+  width: 93px;
+  margin-top: 15px;
+  padding-top: 15px;
+  margin-bottom: 25px;
+  justify-content: center;
+  flex-direction: row;
+  align-self: center;
 }
 
 .turbotaxlogo {

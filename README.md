@@ -10,11 +10,9 @@ It is the frontend clone for Intuit's sign up page. The page has a form with inp
 - CSS
 - Font Awesome
 
-# Deployed on Netlify
-
 # Live Project
 
-https://objective-banach-e82924.netlify.com/
+[Live Project](https://rawcdn.githack.com/nellencr/Form-for-Collecting-Data/873cdfe89323cac41d8c7066f216193839717ab8/index.html)
 
 
 # Screenshot

@@ -1,378 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
-
-a {
-
-  text-decoration: none;
-
+html {
+  font-family: "Helvetica", "Arial", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-
-background-color: #eceef1;
-
-
+  margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
 
+body {
+  background-color: #eceef1;
+}
+
+button {
+  font-family:  Arial, sans-serif;
+  background: #0077c5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
 
 /* Header */
 
 .nav-left{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 12px;
 }
 
 .nav-left button {
-
-color:white;
-background-color:royalblue;
-height:40px;
-width: 95px;
-border-radius: 5px;
-font-weight:bold;
-font-size: 15px;
-border-color: black;
+  color:white;
+  height:40px;
+  width: 95px;
+  border-radius: 5px;
+  font-weight:bold;
+  font-size: 15px;
 }
 
 .nav-left a {
-
-text-decoration: none;
-
+  text-decoration: none;
 }
-
 
 .nav-left p {
-
-margin-right: 15px;
-font-weight:light;
-font-size: 14px;
-
+  margin-right: 15px;
+  font-weight:light;
+  font-size: 14px;
 }
 
+.header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+header.header div.logos img {
+  width: 160px;
+}
 
 .logos {
-
-  display: flex;
-  justify-content: center;
-  margin-top: 15px;
-  padding-bottom: 18px;
-
+  margin-bottom: 10px;
 }
 
-
-
-.minilogos{
-
-
-    height: 29px;
-    width: 73px;
-    /* align-self: flex-end; */
-    margin-bottom: 5px;
-    display: flex;
-    margin-left:69vh;
-    align-items: center;
-    flex-direction:row;
-}
-
-
-.intuitlogo{
-
-      float:right;
-      height: 30px;
-      width: 82px;
-}
-
-.mintlogo {
-
-  height: 34px;
-  width: 93px;
-  margin-top: 15px;
-  padding-top: 15px;
-  margin-bottom: 25px;
-  justify-content: center;
-  flex-direction: row;
-  align-self: center;
-
-}
-
-
-.turbotaxlogo{
-
-  height: 31px;
-  width: 106px;
-  margin-left: 5px;
-
-}
-
-.qblogo{
-
-  height: 34px;
-  width: 132px;
-  margin-left: 5px;
-}
-
-
-
-.form-container{
-
-
+.form-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   background-color: white;
   border: 1px solid #c7c7c7;
   width: 380px;
-  min-height:70vh;
-  margin:auto;
-  text-align:center;
-  outline:none;
-  height:80%;
-  margin-top:20px;
+  margin: 20px auto;
+  text-align: center;
   color: #4c4c4c;
 }
-.form-container{
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 
-
+.form-container header {
+  margin-bottom:auto;
+  color: #4c4c4c;
+  font-weight: 400;
+  font-size: 14px;
 }
 
-
-.form-container header{
-
-margin-bottom:auto;
-color: #4c4c4c;
-font-weight: 400;
-font-size: 14px;
-
-}
-
-.form-container h2{
+.form-container h2 {
   font-weight: lighter;
   font-size: 25px;
+  margin: 25px auto 10px;
 }
-
-
 
 form {
-
-margin-bottom:50%;
-
+  margin-top: 25px;
 }
 
-
-
-.email-label{
-
+.email-label {
   margin-right: 59%;
-      font-weight: 400;
-      padding-bottom: 5px;
-      margin-bottom: 5px;
-      line-height: 28px;
-      color:#404040;
-      font-size: 15px;
-
+  font-weight: 400;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  line-height: 28px;
+  color:#404040;
+  font-size: 15px;
 }
 
 
-.email-input{
-
-      width: 310px;
-      height: 34px;
-      background-color: white;
-      margin-top: 5px;
-      margin-right: 21px;
-      border-color: #c4c4c4;
-      border-radius: 3px;
-      border: solid 1px #c1c5c8;
-      line-height: 1.3em;
-      margin-left: 15px;
+.email-input {
+  width: 310px;
+  height: 34px;
+  background-color: white;
+  margin-top: 5px;
+  margin-right: 21px;
+  border-color: #c4c4c4;
+  border-radius: 3px;
+  border: solid 1px #c1c5c8;
+  line-height: 1.3em;
+  margin-left: 15px;
 }
 
 
-.phone-label{
-
+.phone-label {
   margin-right: 57%;
-      font-weight: 400;
-      padding-bottom: 5px;
-      margin-bottom: 5px;
-      line-height: 27px;
-      margin-left: 8%;
-      color: #404040;
-      font-size: 15px;
-      line-height: 28px;
+  font-weight: 400;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  line-height: 27px;
+  margin-left: 8%;
+  color: #404040;
+  font-size: 15px;
+  line-height: 28px;
 }
 
 
-.phone-input{
-
-      width: 310px;
-      height: 34px;
-      background-color: white;
-      margin-top: 5px;
-      margin-right: 21px;
-      border-color: #c4c4c4;
-      border-radius: 3px;
-      border: solid 1px #c1c5c8;
-      line-height: 1.3em;
-      margin-left: 15px;
-
+.phone-input {
+  width: 310px;
+  height: 34px;
+  background-color: white;
+  margin-top: 5px;
+  margin-right: 21px;
+  border-color: #c4c4c4;
+  border-radius: 3px;
+  border: solid 1px #c1c5c8;
+  line-height: 1.3em;
+  margin-left: 15px;
 }
-.second-input{
+
+.second-input {
   margin-top: 29px;
-
 }
 
-
-.phone-paragraph{
-
-font-weight: lighter;
-font-size: 10px;
-float:left;
-margin-left:30px;
-padding-top:7px;
-
-}
-.third-input{
-  margin-top: 37px;
+.phone-paragraph {
+  font-weight: lighter;
+  font-size: 10px;
+  float: left;
+  margin-left: 30px;
+  padding-top: 7px;
 }
 
+.third-input {
+  margin-top: 26px;
+}
 
-.password-label{
-
+.password-label { 
   margin-right: 67%;
-      font-weight: 400;
-      padding-bottom: 5px;
-      margin-bottom: 5px;
-      line-height: 27px;
-      color: #404040;
-      font-size: 15px;
-
+  font-weight: 400;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  line-height: 27px;
+  color: #404040;
+  font-size: 15px;
 }
 
-input i{
-
-  color:yellow;
-
+input {
+  padding-left: 10px;
 }
 
-.password-input{
-
-      width: 310px;
-      height: 34px;
-      background-color: white;
-      margin-top: 5px;
-      margin-right: 21px;
-      border-color: #c4c4c4;
-      border-radius: 3px;
-      border: solid 1px #c1c5c8;
-      line-height: 1.3em;
-      color: lightgray;
-
+input:focus {
+  outline: none;
 }
 
+input i {
+  color: yellow;
+}
 
+.password-input {
+  width: 310px;
+  height: 34px;
+  background-color: white;
+  margin-top: 5px;
+  margin-right: 21px;
+  border-color: #c4c4c4;
+  border-radius: 3px;
+  border: solid 1px #c1c5c8;
+  line-height: 1.3em;
+  color: lightgray;
+}
 
-.createaccount{
-
-
+.createaccount {
   width: 317px;
   height: 45px;
   border-radius: 5px;
   background-color: white;
   margin-top: 15px;
-  background-color:#167ccc;
+  background-color: #167ccc;
   margin-right: 9px;
-color:white;
-font-size:18px;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: white;
+  font-size: 18px;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: lighter;
+}
+
+.inline-paragraph {
+  padding: 27px;
+  font-style: italic;
+}
+
+.form-end {
+  background-color: #eceef1;
+  padding: 16px solid gray;
+  height: 40px;
+}
+
+
+.legal {
+  margin-top: 15px;
+  color: #4c4c4c;
+}
+
+footer {
+  margin: 22px auto;
+}
+
+.footertext {
+  color: #4c4c4c;
+  margin-top: -13px;
+}
+
+.form-end p {
+  font-size: 13px;
   font-weight:lighter;
+  color:#4c4c4c;
+  text-decoration: none;
+  margin: 10px auto 0;
 }
 
 
- /*
-.createaccount i {
-  font-size: 60px;
-  font-weight: 400;
-  color:white;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
-cursor: pointer;
-
-font-size: 12px;
-}
-*/
-.form-end{
-
-background-color:#eceef1;
-padding:16px solid gray;
-
+.password-container {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-right: 15px;
+  justify-content: center;
 }
 
-
-.legal{
-margin-top:15px;
-color:#4c4c4c;
-}
-
-
-.footertext{
-
-color:#4c4c4c;
-
-margin-top: -13px;
-}
-
-.form-end p{
-
-font-size: 14px;
-font-weight:lighter;
-color:#4c4c4c;
-text-decoration: none;
-}
-
-
-.password-container{
-
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    margin-right:15px;
-    justify-content: center;
-
-}
-
-.password-input{
-
-margin-right: -55px;
-
-
+.password-input {
+  margin-right: -55px;
 }
 
 .password-input:focus {
   outline: none;
 }
 
-.lock-icon{
-
-border: none;
-outline:none;
-margin-left:30px;
-align-items:left;
-color:lightgray;
+.lock-icon {
+  border: none;
+  outline: none;
+  margin-left: 30px;
+  align-items: left;
+  color: lightgray;
 }
 
-.legal{
-
-display: flex;
-justify-content: center;
-
-}
-
-.footertext{
-
+.legal {
   display: flex;
   justify-content: center;
+}
 
+footer .legal a {
+  color: #404040;
+}
 
+footer .legal a:hover {
+  text-decoration: underline;
+}
+
+.footertext {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: #0077c5;
 }

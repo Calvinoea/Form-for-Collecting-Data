@@ -29,6 +29,9 @@ button {
 }
 
 /* Header */
+header {
+  margin: 0 auto;
+}
 
 .nav-left{
   display: flex;
@@ -124,7 +127,6 @@ form {
   margin-left: 15px;
 }
 
-
 .phone-label {
   margin-right: 57%;
   font-weight: 400;
@@ -206,7 +208,6 @@ input i {
   width: 317px;
   height: 45px;
   border-radius: 5px;
-  background-color: white;
   margin-top: 15px;
   background-color: #167ccc;
   margin-right: 9px;
@@ -262,10 +263,6 @@ footer {
   margin-right: -55px;
 }
 
-.password-input:focus {
-  outline: none;
-}
-
 .lock-icon {
   border: none;
   outline: none;
@@ -288,6 +285,9 @@ footer .legal a:hover {
 
 .footertext {
   display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-right: 15px;
   justify-content: center;
 }
 

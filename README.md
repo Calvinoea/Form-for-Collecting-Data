@@ -36,16 +36,12 @@ You may find the issues page on : https://github.com/nellencr/Form-for-Collectin
 
 Nela 
 ------
-GitHub: @nellancr
+GitHub: @nellencr
 
 Calvin 
 ------
 GitHub  @calvinoea
 
-## Live Link
-
-https://raw.githack.com/nellencr/Form-for-Collecting-Data/tree/form_section
-https://rawcdn.githack.com/nellencr/Form-for-Collecting-Data/tree/form_section
 
 ## Show your support
 

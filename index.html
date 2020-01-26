@@ -1,119 +1,81 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-
+  <head>
+    <meta charset="UTF-8">
     <title>Form for collecting data</title>
     <script src="https://kit.fontawesome.com/dcc95333f3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  </head>
 
-
+  <body>
     <div class="nav-left">
-        <p>Already have an Intuit account?<br>
-            <a href="#">I forgot my User ID or Password</a>  </p>
+      <p>Already have an Intuit account?<br>
+        <a href="#">I forgot my User ID or Password</a>  </p>
         <button type="button" name="button"><i class="fa fa-lock">&nbsp;Sign In</i></button>
     </div>
 
+    <header class="header">
+      <div class="logos">
+        <a href="#"><img class= "intuit-logo" src="https://amarcoscastelo.github.io/intuit-signup-page/images/logo-intuit.png" alt="intuit_logo"></a>
+      </div>
+
+      <div class="minilogos">
+       <a href="#"><img class="mintlogo" src="images/mint.png" alt=""></a>
+        <a href="#"><img class="qblogo" src="images/quickbooks.png" alt=""></a>
+        <a href="#"><img class="turbotaxlogo" src="images/turbotax.png" alt=""></a>
+      </div>
+    </header>
 
 
-<header>
-  <div class="logos">
+    <div class="form-container">
+      <h2>Create an Intuit acount</h2>
+      <p style="/* margin-top: 10px; */padding-top: 10px;">One account for everything Intuit, including Mint. <br> <a href="#">Learn more</a>
+      <br></p>
 
-    <img class= "intuitlogo" src="https://amarcoscastelo.github.io/intuit-signup-page/images/logo-intuit.png" alt="intuit_logo">
+      <form class="form" action="index.html" method="post">
+        <label class ="email-label" for="email-input">Email Address</label>
+        <br>
+        <input id="email-input" class="email-input" type="email" name="email"  minlength="6" maxlength="16" required>
+        <br>
+        <div class="second-input">
+          <label class="phone-label" for="phone-input">Phone(recommended)</label>
+          <br>
+          <input id="phone-input" class="phone-input" type="tel" name="tel" >
+          <div class="phone-p">
+            <span class="phone-paragraph">Standard call, messaging or data rates may apply.</span>
+          </div>
+        </div>
+        <br>
 
+        <div class="third-input">
+          <label class="password-label" for="password-input">Password</label>
+          <br>
+          <div class="password-container">
+            <input id="password-input" class="password-input" type="password" name="password"  minlength="8" required>
+            <i class="lock-icon fas fa-lock-open"></i>
+          </div>
+        </div>
+        <br>
+        <button class="createaccount" type="button" name="button"><i class="fa fa-lock">&nbsp;Create Account</i></button>
 
-  </div>
+        <p class="inline-paragraph"><small> By clicking Create account, you agree to our<br>
+      <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy <br>Statement.</a></small></p>
+      </form>
+      <div class="form-end">
+        <p><small>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms</a> of Use. </small></p>
+      </div>
+    </div>
 
-  <div class="minilogos">
-<div><img class="mintlogo" src="images/mint.png" alt=""></div><div><img class="qblogo" src="images/quickbooks.png" alt=""></div><div><img class="turbotaxlogo" src="images/turbotax.png" alt=""></div>
-</div>
-  </header>
-
-
-
-<div class="form-container">
-
-<header class="dummyclass">
-<h2 >Create an Intuit acount</h2>
-
-<p>One account for everything Intuit, including Mint. <br> <a href="#">Learn more</a>
-
-    <br>
-
-
-</p>
-</header>
-
-<form class="form" action="index.html" method="post">
-
-
-
-<label class ="email-label" for="email-input">Email Address</label>
-<br>
-<input id="email-input" class="email-input" type="email" name="email"  minlength="6" maxlength="16" required>
-
-<br>
-
-<div class="second-input">
-<label class="phone-label" for="phone-input">Phone(recommended)</label>
-<br>
-<input id="phone-input" class="phone-input" type="tel" name="tel" >
-<div class="phone-p">
-<span class="phone-paragraph">Standard call, messaging or data rates may apply.</span>
-</div>
-</div>
-<br>
-
-<div class="third-input">
-<label class="password-label" for="password-input">Password</label>
-<br>
-<div class="password-container">
-<input id="password-input" class="password-input" type="password" name="password"  minlength="8" required>
-<i class="lock-icon fas fa-lock-open"></i>
-</div>
-</div>
-<br>
-<button class="createaccount" type="button" name="button"><i class="fa fa-lock">&nbsp;Create Account</i></button>
-
-
-<p><small> By clicking Create account, you agree to our<br>
-<a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy <br>Statement.</a></small></p>
-
-
-
-
-
-</form>
-<div class="form-end">
-  <p><small>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms</a> of Use. </small></p>
-</div>
-
-</div>
-
-
-
-
-<footer>
-  <div class="legal">
-  <span><small><a href="#">Legal</a> &nbsp; <a href="#">Privacy</a> &nbsp; <a href="#">Security</a></small></span>
-
-  </div>
-<br>
-  <div class="footertext">
-
-    <small>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms and conditions, features, support, pricing, and service options subject to change without notice.
-    </small>
-  </div>
-
-</footer>
-</body>
-
-
-
-
-
+    <footer>
+      <div class="legal">
+        <span><small><a href="#">Legal</a> &nbsp; <a href="#">Privacy</a> &nbsp; <a href="#">Security</a></small></span>
+      </div>
+      <br>
+      <div class="footertext">
+        <small>&copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms and conditions, features, support, pricing, and service options subject to change without notice.</small>
+      </div>
+    </footer>
+  </body>
 </html>

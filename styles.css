@@ -1,36 +1,52 @@
-a {
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  text-decoration: none;
-
+html {
+  font-family: "Helvetica", "Arial", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-
-background-color: #eceef1;
-
+  margin: 0 auto;
 }
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #eceef1;
+}
+
+button {
+  font-family:  Arial, sans-serif;
+  background: #0077c5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 /* Header */
 header {
   margin: 0 auto;
 }
 
-.nav-left {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.nav-left{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 12px;
 }
 
 .nav-left button {
-  color: white;
-  background-color: #0077c5;
-  height: 38px;
-  width: 97px;
+  color:white;
+  height:40px;
+  width: 95px;
   border-radius: 5px;
-  font-weight: normal;
-  font-size: 0.89em;
-  border-color: black;
-  cursor: pointer;
-  font-family: inherit;
+  font-weight:bold;
+  font-size: 15px;
 }
 
 .nav-left a {
@@ -39,70 +55,23 @@ header {
 
 .nav-left p {
   margin-right: 15px;
-  font-weight: light;
+  font-weight: 400;
   font-size: 14px;
 }
 
-.logos {
+.header {
   display: flex;
+  flex-flow: column wrap;
   justify-content: center;
-  margin-top: 15px;
-  padding-bottom: 18px;
-}
-
-.minilogos {
-  display: flex;
-  justify-content: center;
-  height: 29px;
-  width: 73px;
-  margin-bottom: 5px;
-  margin-left: 80vh;
   align-items: center;
 }
 
-.minilogos div {
-  display: flex;
-  justify-content: center;
+header.header div.logos img {
+  width: 160px;
 }
 
-.intuitlogo {
-  float: right;
-  height: 30px;
-  width: 82px;
-}
-
-.mintlogo {
-  height: 34px;
-  width: 93px;
-  margin-top: 15px;
-  padding-top: 15px;
-  margin-bottom: 25px;
-  justify-content: center;
-  flex-direction: row;
-  align-self: center;
-}
-
-.turbotaxlogo {
-  height: 31px;
-  width: 106px;
-  margin-left: 5px;
-}
-
-.qblogo {
-  height: 34px;
-  width: 132px;
-  margin-left: 5px;
-}
-
-.form-end p {
-  font-size: 14px;
-  font-weight: lighter;
-  color: #4c4c4c;
-  text-decoration: none;
-}
-
-header.dummyclass > h2 + p {
-  padding-top: 10px;
+.logos {
+  margin-bottom: 10px;
 }
 
 .form-container {
@@ -112,18 +81,13 @@ header.dummyclass > h2 + p {
   background-color: white;
   border: 1px solid #c7c7c7;
   width: 380px;
-  min-height: 70vh;
-  margin: auto;
+  margin: 20px auto;
   text-align: center;
-  outline: none;
-  height: 80%;
-  margin-top: 20px;
   color: #4c4c4c;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .form-container header {
-  margin-bottom: auto;
+  margin-bottom:auto;
   color: #4c4c4c;
   font-weight: 400;
   font-size: 14px;
@@ -132,10 +96,11 @@ header.dummyclass > h2 + p {
 .form-container h2 {
   font-weight: lighter;
   font-size: 25px;
+  margin: 25px auto 10px;
 }
 
 form {
-  margin-bottom: 50%;
+  margin-top: 25px;
 }
 
 .email-label {
@@ -144,9 +109,10 @@ form {
   padding-bottom: 5px;
   margin-bottom: 5px;
   line-height: 28px;
-  color: #404040;
+  color:#404040;
   font-size: 15px;
 }
+
 
 .email-input {
   width: 310px;
@@ -170,7 +136,9 @@ form {
   margin-left: 8%;
   color: #404040;
   font-size: 15px;
+  line-height: 28px;
 }
+
 
 .phone-input {
   width: 310px;
@@ -198,10 +166,10 @@ form {
 }
 
 .third-input {
-  margin-top: 37px;
+  margin-top: 26px;
 }
 
-.password-label {
+.password-label { 
   margin-right: 67%;
   font-weight: 400;
   padding-bottom: 5px;
@@ -209,6 +177,14 @@ form {
   line-height: 27px;
   color: #404040;
   font-size: 15px;
+}
+
+input {
+  padding-left: 10px;
+}
+
+input:focus {
+  outline: none;
 }
 
 input i {
@@ -220,13 +196,12 @@ input i {
   height: 34px;
   background-color: white;
   margin-top: 5px;
-  margin-right: -55px;
+  margin-right: 21px;
   border-color: #c4c4c4;
   border-radius: 3px;
   border: solid 1px #c1c5c8;
   line-height: 1.3em;
   color: lightgray;
-  outline: none;
 }
 
 .createaccount {
@@ -238,28 +213,43 @@ input i {
   margin-right: 9px;
   color: white;
   font-size: 18px;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: "Helvetica", Arial, sans-serif;
   font-weight: lighter;
+}
+
+.inline-paragraph {
+  padding: 27px;
+  font-style: italic;
 }
 
 .form-end {
   background-color: #eceef1;
-  padding: 16px solid gray;
+  height: 40px;
 }
+
 
 .legal {
   margin-top: 15px;
   color: #4c4c4c;
-  display: flex;
-  justify-content: center;
+}
+
+footer {
+  margin: 22px auto;
 }
 
 .footertext {
   color: #4c4c4c;
   margin-top: -13px;
-  display: flex;
-  justify-content: center;
 }
+
+.form-end p {
+  font-size: 13px;
+  font-weight:lighter;
+  color:#4c4c4c;
+  text-decoration: none;
+  margin: 10px auto 0;
+}
+
 
 .password-container {
   display: flex;
@@ -269,10 +259,43 @@ input i {
   justify-content: center;
 }
 
+.password-input {
+  margin-right: -55px;
+}
+
+.form-end {
+  background-color: #eceef1;
+  padding: 16px solid gray;
+}
+
 .lock-icon {
   border: none;
   outline: none;
   margin-left: 30px;
-  align-items: left;
   color: lightgray;
+}
+
+.legal {
+  display: flex;
+  justify-content: center;
+}
+
+footer .legal a {
+  color: #404040;
+}
+
+footer .legal a:hover {
+  text-decoration: underline;
+}
+
+.footertext {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-right: 15px;
+  justify-content: center;
+}
+
+a {
+  color: #0077c5;
 }
